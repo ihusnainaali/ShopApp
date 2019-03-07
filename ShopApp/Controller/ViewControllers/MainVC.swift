@@ -7,13 +7,18 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class MainVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .white
-        // Do any additional setup after loading the view, typically from a nib.
+        if let email = Auth.auth().currentUser?.email {
+            DatabaseManager.shared.editLastLoginTime(forEmail: email)
+        } else {
+            fatalError("NO_EMAIL_FOUND")
+        }
     }
     
     override func viewDidAppear(_ animated: Bool) {

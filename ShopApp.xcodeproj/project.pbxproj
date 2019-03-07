@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		541571742231630E00B557D2 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541571732231630E00B557D2 /* DatabaseManager.swift */; };
 		54363EA9222EAB5200B7D2E3 /* FramedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54363EA8222EAB5200B7D2E3 /* FramedTextField.swift */; };
 		543D849F2230033A00E2967E /* CheckInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543D849E2230033A00E2967E /* CheckInfo.swift */; };
 		546B62CF222E8BDD00F232B7 /* ReviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546B62CE222E8BDD00F232B7 /* ReviewVC.swift */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		07681F9B72B1D5326DEAACA5 /* Pods-ShopApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShopApp/Pods-ShopApp.debug.xcconfig"; sourceTree = "<group>"; };
+		541571732231630E00B557D2 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		54363EA8222EAB5200B7D2E3 /* FramedTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FramedTextField.swift; sourceTree = "<group>"; };
 		543D849E2230033A00E2967E /* CheckInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInfo.swift; sourceTree = "<group>"; };
 		546B62CE222E8BDD00F232B7 /* ReviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewVC.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 			children = (
 				54F4632E222D561600C0AC0D /* AppDelegate.swift */,
 				543D849E2230033A00E2967E /* CheckInfo.swift */,
+				541571732231630E00B557D2 /* DatabaseManager.swift */,
 				543D849C223002D700E2967E /* ViewControllers */,
 			);
 			path = Controller;
@@ -317,6 +320,7 @@
 				54A4D3F9222DBDBC00F0047D /* SellVC.swift in Sources */,
 				54A4D3FF222DBDE300F0047D /* SellerProfileVC.swift in Sources */,
 				54A4D3E7222DBCAF00F0047D /* LoginVC.swift in Sources */,
+				541571742231630E00B557D2 /* DatabaseManager.swift in Sources */,
 				54A4D3F3222DBD4600F0047D /* SimulateBuyVC.swift in Sources */,
 				54A4D3F7222DBDAC00F0047D /* ProfileCustomerVC.swift in Sources */,
 				54363EA9222EAB5200B7D2E3 /* FramedTextField.swift in Sources */,

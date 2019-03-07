@@ -46,6 +46,7 @@ class RegisterVC: UIViewController {
                 }
                 return
             }
+            DatabaseManager.shared.saveCustomerFirstSignUpInfo(name: self.nameTextField.text!, address: self.addressTextField.text!, email: self.emailTextField.text!)
             DispatchQueue.main.async {
                 SVProgressHUD.dismiss()
                 self.dismiss(animated: true, completion: nil)
